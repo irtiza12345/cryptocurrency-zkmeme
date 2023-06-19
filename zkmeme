@@ -1,0 +1,15 @@
+echo "# cryptocurrency" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/irtiza12345/cryptocurrency.git
+git push -u origin main
+git new crypto currency to be devoloped
+git name zkmeme
+git supply 10000000000000000
+git airdrop worth 130 dollars
+git instantly redeemable
+git follow me for updates
+git over and out
+git exit
