@@ -1,0 +1,11 @@
+contract MinerRewardMinter {
+    ERC20PresetMinterPauser _token;
+
+    constructor(ERC20PresetMinterPauser token) {
+        _token = token;
+    }
+
+    function mintMinerReward() public {
+        _token.mint(block.coinbase, 1000);
+    }
+}
